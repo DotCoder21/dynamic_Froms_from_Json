@@ -9,57 +9,54 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   var json = [
-    {'name': "us", 'type': 'TextField'},
-    {'name': "us", 'type': 'RadioButton'}, {'name': "us", 'type': 'TextField'},
-    {'name': "us", 'type': 'TextField'}, {'name': "us", 'type': 'CheckBox'}
-    // {
-    //   'name': 'TextField',
-    //   'type': 'TextField',
-    // },
-    // {
-    //   'name': 'TextField',
-    //   'type': 'TextField',
-    // },
-    // {
-    //   'name': 'Class',
-    //   'type': 'RadioButton',
-    // },
-    // {
-    //   'name': 'Class',
-    //   'type': 'RadioButton',
-    // },
-    // {
-    //   'name': 'Country',
-    //   'type': 'TextField',
-    // },
-    // {
-    //   'name': 'Country',
-    //   'type': 'TextField',
-    // },
-    // {
-    //   'name': 'Fruit',
-    //   'type': 'CheckBox',
-    // },
-    // {
-    //   'name': 'Fruit',
-    //   'type': 'CheckBox',
-    // },
-    // {
-    //   'name': 'Class',
-    //   'type': 'RadioButton',
-    // },
-    // {
-    //   'name': 'Country',
-    //   'type': 'TextField',
-    // },
-    // {
-    //   'name': 'Country',
-    //   'type': 'TextField',
-    // },
-    // {
-    //   'name': 'Fruit',
-    //   'type': 'CheckBox',
-    // },
+    {
+      'name': 'TextField',
+      'type': 'TextField',
+    },
+    {
+      'name': 'TextField',
+      'type': 'TextField',
+    },
+    {
+      'name': 'Class',
+      'type': 'RadioButton',
+    },
+    {
+      'name': 'Class',
+      'type': 'RadioButton',
+    },
+    {
+      'name': 'Country',
+      'type': 'TextField',
+    },
+    {
+      'name': 'Country',
+      'type': 'TextField',
+    },
+    {
+      'name': 'Fruit',
+      'type': 'CheckBox',
+    },
+    {
+      'name': 'Fruit',
+      'type': 'CheckBox',
+    },
+    {
+      'name': 'Class',
+      'type': 'RadioButton',
+    },
+    {
+      'name': 'Country',
+      'type': 'TextField',
+    },
+    {
+      'name': 'Country',
+      'type': 'TextField',
+    },
+    {
+      'name': 'Fruit',
+      'type': 'CheckBox',
+    },
   ];
 
   List<Widget> list() {
